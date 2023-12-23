@@ -16,7 +16,7 @@ const Quiz = () => {
 
   let option_array =[Option1,Option2,Option3,Option4];
 
-
+ //validating the answer
   const checkAns = (e, ans) => {
     if (lock===false){
     if (question.ans === ans) {
@@ -30,7 +30,7 @@ const Quiz = () => {
     }
   }
   }
-
+// next button 
   const next =()=>{
     if(lock===true){
       if(index===data.length-1){
@@ -48,7 +48,7 @@ const Quiz = () => {
 
     }
   }
-  
+  //reset button
   const reset= () =>{
     setIndex(0);
     setQuestion(data[0]);

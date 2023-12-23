@@ -37,7 +37,7 @@ export const data = [
     option2: "Green",
     option3: "Blue",
     option4: "Transparent",
-    ans: 4, // Correct answer is represented by the option number
+    ans: 4, 
   },
   {
     question: "What does the 'box model' in CSS consist of?",
@@ -45,7 +45,7 @@ export const data = [
     option2: "Header, Footer, Sidebar, Main",
     option3: "HTML, CSS, JavaScript",
     option4: "Array, Object, String, Number",
-    ans: 1, // Correct answer is represented by the option number
+    ans: 1, 
   },
   {
     question: "Which HTML tag is used to define an unordered list?",
@@ -53,7 +53,7 @@ export const data = [
     option2: "<ol>",
     option3: "<li>",
     option4: "<list>",
-    ans: 1, // Correct answer is represented by the option number
+    ans: 1, 
   },
   {
     question: "In JavaScript, what does the DOM stand for?",
@@ -61,7 +61,7 @@ export const data = [
     option2: "Data Object Model",
     option3: "Design Object Model",
     option4: "Document Oriented Model",
-    ans: 1, // Correct answer is represented by the option number
+    ans: 1, 
   },
   {
     question: "What is the purpose of the 'alt' attribute in an HTML image tag?",
@@ -69,7 +69,7 @@ export const data = [
     option2: "To provide alternative text for the image",
     option3: "To set the image width and height",
     option4: "To define the image alignment",
-    ans: 2, // Correct answer is represented by the option number
+    ans: 2, 
   },
   {
     question: "Which CSS property is used to change the background color of an element?",
@@ -77,6 +77,6 @@ export const data = [
     option2: "color",
     option3: "text-color",
     option4: "bgcolor",
-    ans: 1, // Correct answer is represented by the option number
+    ans: 1, 
   },
 ];
